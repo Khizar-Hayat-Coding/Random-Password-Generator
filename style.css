@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(48, 0, 80);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.password {
+    height: 350px;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.password input {
+    width: 350px;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.password .generate button {
+    width: 200px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.password .generate button:hover {
+    background-color: rgb(28, 255, 77);
+    color: black;
+    transition: 1s;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.password .copy button {
+    width: 200px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.password .copy button:hover {
+    background-color: rgb(0, 255, 149);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
